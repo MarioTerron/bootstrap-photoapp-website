@@ -20,6 +20,10 @@ ul {
 	font-weight: 400;
 }
 
+.navbar-default .navbar-nav > li >a:hover {
+	color: $c-app-primary;
+}
+
 // Jumbotron
 .jumbotron {
 	background-image: url('../img/site_showcase_bg.jpg');
@@ -207,7 +211,14 @@ footer {
 		li {
 			display: inline-block;
 			padding-right: 10px;
-			color: $c-app-secondary;
+
+			a {
+				color: $c-app-secondary;
+
+				&:hover {
+					color: darken($c-app-secondary, 5%);
+				}
+			}
 		}
 	}
 
