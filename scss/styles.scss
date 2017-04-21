@@ -174,8 +174,8 @@ ul {
 	}
 }
 
-// About
-.about {
+// main-section
+.main-section {
 	margin-top: 51px;
 
 	&-header {
@@ -215,7 +215,9 @@ footer {
 			a {
 				color: $c-app-secondary;
 
-				&:hover {
+				&:hover,
+				&:focus,
+				&:visited {
 					color: darken($c-app-secondary, 5%);
 				}
 			}

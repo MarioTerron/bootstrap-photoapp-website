@@ -110,15 +110,15 @@ ul {
   .features img {
     height: 200px; }
 
-.about {
+.main-section {
   margin-top: 51px; }
-  .about-header {
+  .main-section-header {
     background-color: #1caa98;
     color: #fff; }
-  .about-content {
+  .main-section-content {
     padding-top: 24px;
     padding-bottom: 24px; }
-    .about-content .panel-group {
+    .main-section-content .panel-group {
       margin-top: 20px; }
 
 footer {
@@ -136,7 +136,7 @@ footer {
       padding-right: 10px; }
       footer ul li a {
         color: #fff; }
-        footer ul li a:hover {
+        footer ul li a:hover, footer ul li a:focus, footer ul li a:visited {
           color: #f2f2f2; }
   footer p {
     color: #fff;
