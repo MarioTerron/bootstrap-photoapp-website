@@ -67,12 +67,9 @@ ul {
           margin-bottom: 0; } }
     @media (min-width: 580px) {
       .jumbotron img {
-        width: 40%;
+        width: 30%;
         margin-right: 0;
         margin-left: 0; } }
-    @media (min-width: 900px) {
-      .jumbotron img {
-        width: 30%; } }
 
 .apps img {
   width: 100%;
