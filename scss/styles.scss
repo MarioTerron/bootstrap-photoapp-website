@@ -170,6 +170,25 @@ ul {
 	}
 }
 
+// About
+.about {
+	margin-top: 51px;
+
+	&-header {
+		background-color: $c-app-primary;
+		color: $c-app-secondary;
+	}
+
+	&-content {
+		padding-top: 24px;
+		padding-bottom: 24px;
+
+		.panel-group {
+			margin-top: 20px;
+		}
+	}
+}
+
 footer {
 	background-color: $c-app-third;
 
