@@ -1,20 +1,21 @@
 /* Variables
 ========================================================================== */
-$c-primary: #1caa98;
+$c-app-primary: #1caa98;
+$c-app-secondary: #fff;
+$c-app-third: #333;
 
 
 /* Structure
 ========================================================================== */
-.container {
-	// padding-right: 100px;
-	// padding-left: 100px;
+
+body {
+	color: $c-text-primary;
 }
 
 ul {
 	padding-left: 0;
 	list-style-type: none;
 }
-
 
 /* Layout
 ========================================================================== */
@@ -74,7 +75,7 @@ ul {
 	h1 {
 		margin-top: 46px;
 		margin-bottom: 28px;
-		color: #fff;
+		color: $c-text-primary;
 		text-align: center;
 
 		@media (min-width: 580px) {
@@ -83,7 +84,7 @@ ul {
 	}
 
 	p {
-		color: #fff;
+		color: $c-text-primary;
 		text-align: center;
 
 		@media (min-width: 580px) {
@@ -146,12 +147,12 @@ ul {
 	}
 
 	h2 {
-		color: #fff;
+		color: $c-text-primary;
 	}
 
 	ul {
 		li {
-			color: #fff;
+			color: $c-text-primary;
 			line-height: 24px;
 
 			@media (min-width: 1200px) {
@@ -165,7 +166,7 @@ ul {
 
 		i {
 			margin-right: 4px;
-			color: #fff;
+			color: $c-text-primary;
 		}
 	}
 
@@ -175,7 +176,7 @@ ul {
 }
 
 footer {
-	background-color: #333;
+	background-color: $c-app-third;
 
 	.container {
 		padding: 30px 0;
@@ -192,12 +193,12 @@ footer {
 		li {
 			display: inline-block;
 			padding-right: 10px;
-			color: #fff;
+			color: $c-text-primary;
 		}
 	}
 
 	p {
-		color: #fff;
+		color: $c-text-primary;
 		text-align: center;
 
 		@media (min-width: 580px) {
