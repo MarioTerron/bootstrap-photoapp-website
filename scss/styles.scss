@@ -7,11 +7,6 @@ $c-app-third: #333;
 
 /* Structure
 ========================================================================== */
-
-body {
-	color: $c-text-primary;
-}
-
 ul {
 	padding-left: 0;
 	list-style-type: none;
@@ -21,7 +16,7 @@ ul {
 ========================================================================== */
 // Navbar
 .navbar-default .navbar-brand {
-	color: $c-primary;
+	color: $c-app-primary;
 	font-weight: 400;
 }
 
@@ -45,7 +40,7 @@ ul {
 	}
 
 	.text-primary {
-		color: $c-primary;
+		color: $c-app-primary;
 	}
 
 	.img-container {
@@ -75,7 +70,7 @@ ul {
 	h1 {
 		margin-top: 46px;
 		margin-bottom: 28px;
-		color: $c-text-primary;
+		color: $c-app-secondary;
 		text-align: center;
 
 		@media (min-width: 580px) {
@@ -84,7 +79,7 @@ ul {
 	}
 
 	p {
-		color: $c-text-primary;
+		color: $c-app-secondary;
 		text-align: center;
 
 		@media (min-width: 580px) {
@@ -135,7 +130,7 @@ ul {
 
 // Features
 .features {
-	background-color: $c-primary;
+	background-color: $c-app-primary;
 
 	.container {
 		padding: 30px 60px;
@@ -147,12 +142,12 @@ ul {
 	}
 
 	h2 {
-		color: $c-text-primary;
+		color: $c-app-secondary;
 	}
 
 	ul {
 		li {
-			color: $c-text-primary;
+			color: $c-app-secondary;
 			line-height: 24px;
 
 			@media (min-width: 1200px) {
@@ -166,7 +161,7 @@ ul {
 
 		i {
 			margin-right: 4px;
-			color: $c-text-primary;
+			color: $c-app-secondary;
 		}
 	}
 
@@ -193,12 +188,12 @@ footer {
 		li {
 			display: inline-block;
 			padding-right: 10px;
-			color: $c-text-primary;
+			color: $c-app-secondary;
 		}
 	}
 
 	p {
-		color: $c-text-primary;
+		color: $c-app-secondary;
 		text-align: center;
 
 		@media (min-width: 580px) {
