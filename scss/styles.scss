@@ -1,0 +1,212 @@
+/* Variables
+========================================================================== */
+$c-primary: #1caa98;
+
+
+/* Structure
+========================================================================== */
+.container {
+	// padding-right: 100px;
+	// padding-left: 100px;
+}
+
+ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+
+/* Layout
+========================================================================== */
+// Navbar
+.navbar-default .navbar-brand {
+	color: $c-primary;
+	font-weight: 400;
+}
+
+// Jumbotron
+.jumbotron {
+	background-image: url('../img/site_showcase_bg.jpg');
+	background-position: center center;
+	background-size: cover;
+
+	@media (min-width: 1200px) {
+		padding-bottom: 0;
+	}
+
+	.container {
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		@media (min-width: 1200px) {
+			padding-bottom: 0;
+		}
+	}
+
+	.text-primary {
+		color: $c-primary;
+	}
+
+	.img-container {
+		@media (min-width: 1200px) {
+			display: flex;
+		}
+
+		img {
+			display: none;
+
+			@media (min-width: 1200px) {
+				display: block;
+				width: 360px;
+			}
+		}
+	}
+
+	.logos-container {
+		@media (min-width: 580px) {
+			display: flex;
+			align-items: flex-end;
+			margin-top: 18px;
+			margin-bottom: 48px;
+		}
+	}
+
+	h1 {
+		margin-top: 46px;
+		margin-bottom: 28px;
+		color: #fff;
+		text-align: center;
+
+		@media (min-width: 580px) {
+			text-align: left;
+		}
+	}
+
+	p {
+		color: #fff;
+		text-align: center;
+
+		@media (min-width: 580px) {
+			text-align: left;
+		}
+	}
+
+	img {
+		margin-right: auto;
+		margin-left: auto;
+
+		&:first-of-type {
+			margin-bottom: 28px;
+
+			@media (min-width: 580px) {
+				margin-right: 24px;
+				margin-bottom: 0;
+			}
+		}
+
+		@media (min-width: 580px) {
+			width: 40%;
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		@media (min-width: 900px) {
+			width: 30%;
+		}
+
+	}
+}
+
+// Apps
+.apps {
+	img {
+		width: 100%;
+		border: 1px solid #ddd;
+
+		&:first-of-type {
+			margin-top: 28px;
+		}
+	}
+
+	.btn:last-of-type {
+		margin-bottom: 28px;
+	}
+
+	@media (min-width: 1200px) {
+		margin-bottom: 28px;
+	}
+}
+
+// Features
+.features {
+	background-color: $c-primary;
+
+	.container {
+		padding: 30px 60px;
+	}
+
+	.img-container {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	h2 {
+		color: #fff;
+	}
+
+	ul {
+		li {
+			color: #fff;
+			line-height: 24px;
+
+			@media (min-width: 1200px) {
+				line-height: 32px;
+			}
+
+			&:last-of-type {
+				margin-bottom: 20px;
+			}
+		}
+
+		i {
+			margin-right: 4px;
+			color: #fff;
+		}
+	}
+
+	img {
+		height: 200px;
+	}
+}
+
+footer {
+	background-color: #333;
+
+	.container {
+		padding: 30px 0;
+	}
+
+	ul {
+		margin-bottom: 24px;
+		text-align: center;
+
+		@media (min-width: 580px) {
+			text-align: left;
+		}
+
+		li {
+			display: inline-block;
+			padding-right: 10px;
+			color: #fff;
+		}
+	}
+
+	p {
+		color: #fff;
+		text-align: center;
+
+		@media (min-width: 580px) {
+			text-align: right;
+		}
+	}
+}
